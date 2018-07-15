@@ -1,0 +1,147 @@
+@keyframes fading
+{from {opacity: 0 ;}
+to {opacity: 1;}}
+@keyframes fading2
+{from {opacity: 1;}
+to {opacity: 0;}}
+
+img{ padding-top: 200px;
+   height: auto;
+   width: 35vw;
+ position:absolute;
+ top:50%;
+ left:50%;
+transform:translate(-50%,-50%);}
+#img2 {padding-top:200px;
+   height: auto;
+   width: 35vw;
+ position:absolute;
+ top:50%;
+ left:50%;
+transform:translate(-50%,-50%);
+animation:fading 1.5s infinite;}
+h1 { font-family: 'Homemade Apple', cursive;
+font-size: 30px;
+position:absolute;
+top: 45px;
+left:10px;
+
+}
+
+.row {
+  position:absolute;
+right: 20px;
+top: 50px;}
+li{font-size:20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  }
+a {color:black;}
+
+
+
+
+
+
+.c2
+{width: 800px;
+height:auto;
+position:absolute;
+top:120px;
+left: 300px;
+}
+
+#slide1{height:600px;
+width:100%;}
+
+#slide2{height:600px;
+width:100%;
+position:absolute;
+top:1000px;}
+
+.ph:hover{
+animation: fading2 1s linear forwards;
+}
+
+
+
+
+
+
+
+p {font-size:20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+color:grey;
+position:absolute;
+animation:fading 1s forwards;
+top:160px;
+left: 300px;
+
+
+
+
+}
+
+
+  #ph1{width:300px;
+  height:auto;
+position:absolute;
+left:30px;}
+#ph2{width:300px;
+height:auto;
+position:absolute;
+left:360px;
+top:152px;
+}
+#ph3 {width:300px;
+height:auto;
+left:360px;
+top:490px;
+
+
+}
+h2{ font-family: 'Homemade Apple', cursive;
+  font-size: 30px;
+  color:black
+  position:absolute;
+  margin-top:120px;
+  margin-left: 800px;
+
+}
+
+
+}
+#p3{position:absolute;
+  top:20px;
+left:0px;
+  font-family: 'Homemade Apple', cursive;
+    font-size: 20px;
+    color:black;}
+    #container2{position:absolute;
+      width:600px;
+  height:auto;
+  top:20px;
+left:0px;
+}
+}
+
+.testo{font-size:20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+color:grey;
+position:absolute;
+}
+#cont1{width:40%;
+height:auto;
+position:absolute;
+transform: translate(-70%,-20%);}
+#cont2{width:40%;
+height:auto;
+position:absolute;
+top:0%;
+left:-5%;
+}
+#cont3{width:40%;
+height:auto;
+position:absolute;
+transform: translate(-13%,0%);
+top:50%;
+}
